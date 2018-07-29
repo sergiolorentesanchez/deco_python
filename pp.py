@@ -4,6 +4,7 @@ import c
 import d
 import e
 import f
+import g
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
