@@ -3,7 +3,7 @@ import os
 import oso
 import luci
 
-la macarena duerme
+la macarena 
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
