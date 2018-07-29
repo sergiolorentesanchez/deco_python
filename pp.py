@@ -1,6 +1,3 @@
-import a
-import b
-import c
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
@@ -17,6 +14,7 @@ def translate(items):
         translated_item = dict()
         translated_item['id'] = int(items['id'])
         translated_item['title'] = items['titulo']
+        print (translated_item)
         return translated_item
 
 
@@ -36,5 +34,4 @@ def data(self):
 
 a=data(data)
 
-b=5
-c=1000
+
