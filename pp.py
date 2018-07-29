@@ -37,3 +37,4 @@ def data(self):
 a=data(data)
 
 b=5
+c=1000
