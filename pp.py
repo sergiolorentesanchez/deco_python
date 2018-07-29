@@ -1,3 +1,6 @@
+import a
+import b
+import c
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
