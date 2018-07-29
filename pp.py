@@ -1,10 +1,6 @@
 import a
 import b
-import c
-import d
-import e
-import f
-import g
+99
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
