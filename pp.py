@@ -1,5 +1,5 @@
+import json
 
-import os
 def translate_output(func):
     def wrap(self, *args, **kwargs):
         return translate(func(self, *args, **kwargs))
