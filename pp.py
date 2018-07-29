@@ -2,7 +2,7 @@ import json
 import os
 import oso
 
-la macarena duerme
+la macarena 
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
