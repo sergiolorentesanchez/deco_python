@@ -1,5 +1,5 @@
 import json
-
+import os
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
@@ -11,13 +11,11 @@ def translate(items):
         translated_items = []
         for item in items:
             translated_items.append(translate(item))
-        print (translated_items)
         return translated_items
     else:
         translated_item = dict()
         translated_item['id'] = int(items['id'])
         translated_item['title'] = items['titulo']
-        print(translated_item)
         return translated_item
 
 
