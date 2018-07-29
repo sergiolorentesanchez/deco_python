@@ -32,3 +32,5 @@ def data(self):
     return dict2
 
 a=data(data)
+
+b=5
