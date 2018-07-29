@@ -5,7 +5,7 @@ import luci
 
 la macarena 
 
-def translate_output(func):
+def translate_output(func):0
     def wrap(self, *args, **kwargs):
         return translate(func(self, *args, **kwargs))
     return wrap
