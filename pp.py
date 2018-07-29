@@ -1,5 +1,6 @@
 import json
 import os
+IMPORT CASTAÑA
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
