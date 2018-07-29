@@ -1,6 +1,6 @@
 import a
 import b
-99
+import c
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
@@ -28,7 +28,7 @@ dict2["id"]=2
 dict2["titulo"] = 'MAMA'
 list1 = [dict1, dict2]
 
-#print (list1)
+print (list1)
 
 @translate_output
 def data(self):
