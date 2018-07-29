@@ -22,7 +22,7 @@ def translate(items):
         translated_item['title'] = items['titulo']
         return translated_item
 
-
+luci
 dict1=dict()
 dict2=dict()
 dict1["id"]=1
