@@ -1,11 +1,5 @@
-import json
-import os
-import oso
-import luci
 
-la macarena 
-
-def translate_output(func):0
+def translate_output(func):
     def wrap(self, *args, **kwargs):
         return translate(func(self, *args, **kwargs))
     return wrap
