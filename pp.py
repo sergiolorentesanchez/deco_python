@@ -1,8 +1,6 @@
 import json
 import os
 import oso
-import Lusitania
-import castilla
 
 la macarena duerme
 
