@@ -4,7 +4,7 @@ import oso
 import Lusitania
 import castilla
 
-la macarena
+la macarena duerme
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
