@@ -2,6 +2,7 @@ import a
 import b
 import c
 import d
+import e
 
 def translate_output(func):
     def wrap(self, *args, **kwargs):
